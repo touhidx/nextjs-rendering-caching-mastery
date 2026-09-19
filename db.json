@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Noise-Canceling Headphones",
+      "category": "Electronics",
+      "price": 199.99,
+      "inStock": true,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "description": "High-fidelity audio with active noise cancellation and 30-hour battery life."
+    },
+    {
+      "id": "2",
+      "name": "Ergonomic Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 89.5,
+      "inStock": true,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+      "description": "Customizable RGB backlighting with hot-swappable tactile mechanical switches."
+    },
+    {
+      "id": "3",
+      "name": "Smart Fitness Watch",
+      "category": "Wearables",
+      "price": 149.0,
+      "inStock": false,
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "description": "Track your heart rate, steps, sleep cycles, and GPS workouts in real time."
+    },
+    {
+      "id": "4",
+      "name": "Minimalist Leather Backpack",
+      "category": "Fashion",
+      "price": 120.0,
+      "inStock": true,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+      "description": "Durable genuine leather backpack with a dedicated 15-inch laptop sleeve."
+    },
+    {
+      "id": "5",
+      "name": "Stainless Steel Water Bottle",
+      "category": "Home & Kitchen",
+      "price": 24.99,
+      "inStock": true,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+      "description": "Double-wall vacuum insulated bottle that keeps liquids cold for 24 hours."
+    },
+    {
+      "id": "6",
+      "name": "4K Ultra HD Action Camera",
+      "category": "Electronics",
+      "price": 229.99,
+      "inStock": true,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500",
+      "description": "Waterproof action camera with smooth image stabilization and 4K recording at 60fps."
+    }
+  ]
+}
