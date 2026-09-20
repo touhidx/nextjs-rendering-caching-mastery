@@ -60,5 +60,73 @@
       "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500",
       "description": "Waterproof action camera with smooth image stabilization and 4K recording at 60fps."
     }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "price": 34.99,
+      "inStock": true,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=500",
+      "description": "A handbook of agile software craftsmanship focusing on writing readable and maintainable code."
+    },
+    {
+      "id": "2",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "price": 18.0,
+      "inStock": true,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+      "description": "An easy and proven way to build good habits and break bad ones with tiny changes."
+    },
+    {
+      "id": "3",
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "genre": "Technology",
+      "price": 42.5,
+      "inStock": true,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500",
+      "description": "The definitive guide to the architecture and internals of reliable, scalable, and maintainable systems."
+    },
+    {
+      "id": "4",
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas & Andrew Hunt",
+      "genre": "Programming",
+      "price": 39.95,
+      "inStock": false,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500",
+      "description": "Your journey to mastery in software development through classic practical insights and techniques."
+    },
+    {
+      "id": "5",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "price": 14.99,
+      "inStock": true,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=500",
+      "description": "An epic science fiction masterpiece set on the desert planet Arrakis."
+    },
+    {
+      "id": "6",
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "genre": "Programming",
+      "price": 22.99,
+      "inStock": true,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=500",
+      "description": "Unearthing the reliable, elegant, and powerful subset of features within the JavaScript language."
+    }
   ]
 }
