@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import React, { use } from "react";
-import { UserContext } from "../contexts/UserContext";
+import useUser from "../hooks/useUser";
+
 interface Iporps {
   id: string;
   name: string;
@@ -15,7 +15,7 @@ interface Iporps {
 }
 
 const ProductCard = ({ product }: Iporps) => {
-  const user = use(UserContext);
+  const user = useUser();
   console.log(user);
   // console.log(product);
   return (

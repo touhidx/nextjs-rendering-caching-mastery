@@ -1,8 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
+import useUser from "../hooks/useUser";
 
 const BookCard = ({ book }) => {
   const { id, title, description } = book;
+  const useuser = useUser();
+  console.log(useuser);
   return (
     <div className="col-span-1">
       <div className="card bg-base-100  shadow-sm">
