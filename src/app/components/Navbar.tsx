@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { use } from "react";
+import { UserContext } from "../contexts/UserContext";
 
 const Navbar = () => {
   const Links = (
@@ -18,6 +20,8 @@ const Navbar = () => {
       </li>
     </>
   );
+  const users = use(UserContext);
+  console.log(users);
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">

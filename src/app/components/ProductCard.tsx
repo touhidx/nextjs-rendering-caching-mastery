@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { use } from "react";
+import { UserContext } from "../contexts/UserContext";
 interface Iporps {
   id: string;
   name: string;
@@ -12,7 +15,9 @@ interface Iporps {
 }
 
 const ProductCard = ({ product }: Iporps) => {
-  console.log(product);
+  const user = use(UserContext);
+  console.log(user);
+  // console.log(product);
   return (
     <div className="col-span-1">
       <div className="card bg-base-100  shadow-sm">
